@@ -209,12 +209,19 @@
 
     /* ===== Responsive ===== */
     @media (max-width: 480px) {
+      .hero { padding: 40px 16px 36px; }
       .hero h1 { font-size: 1.6rem; }
       .hero-illust { gap: 10px; }
       .hero-illust svg { transform: scale(0.75); }
-      .info-row { flex-direction: column; }
-      .info-label { margin-bottom: 2px; }
-      .info-card, .form-section { padding: 22px 18px; }
+      .container { padding: 0 14px; }
+      .info-card, .form-section { padding: 18px 14px; margin-bottom: 28px; border-radius: 12px; }
+      .info-card h2 { font-size: 0.95rem; margin-bottom: 14px; padding-bottom: 8px; }
+      .info-row { flex-direction: column; padding: 8px 0; }
+      .info-label { margin-bottom: 2px; font-size: 0.8rem; flex: none; }
+      .info-value { font-size: 0.9rem; }
+      .deadline-note { padding: 10px 12px; margin-top: 12px; font-size: 0.82rem; }
+      .message { padding: 32px 0 20px; }
+      .message p { font-size: 0.9rem; }
       .radio-group { flex-direction: column; gap: 10px; }
     }
   </style>
